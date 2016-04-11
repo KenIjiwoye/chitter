@@ -9,15 +9,23 @@
 			<p>profile info goes here</p>
 		</div>
 	</div>
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<p>about</p>
+		</div>
+		<div class="panel-body">
+			<p>other link info goes here</p>
+		</div>
+	</div>
 </div>
 <div class="col-xs-6">
 	<div class="panel panel-default">
-		<div class="panel-heading">
-			<p>feed</p>
-		</div>
+		<div class="panel-heading">Tweets</div>
+		<% for @p in @posts %>
 		<div class="panel-body">
-			<p>page feed info goes here</p>
+			<p><%= @p.content %></p>
 		</div>
+		<%end%>
 	</div>
 </div>
 <div class="col-xs-3">
@@ -31,13 +39,3 @@
 	</div>
 </div>
 <!-- 2nd row begins -->
-<div class="col-xs-3">
-	<div class="panel panel-default">
-		<div class="panel-heading">
-			<p>about</p>
-		</div>
-		<div class="panel-body">
-			<p>other link info goes here</p>
-		</div>
-	</div>
-</div>
