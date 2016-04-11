@@ -10,7 +10,10 @@
 <%= render 'layouts/nav.html.erb' %>
 
 <div class="container">
-<%= yield %>
+	<span class="notice alert-info"><%= notice %></span>
+	<span class="alert-danger"><%= alert %></span>
+
+	<%= yield %>
 </div>
 
 </body>
