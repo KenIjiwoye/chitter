@@ -19,14 +19,16 @@
 	</div>
 </div>
 <div class="col-xs-6">
+	<% for @p in @posts %>
 	<div class="panel panel-default">
-		<div class="panel-heading">Tweets</div>
-		<% for @p in @posts %>
+		
+		
 		<div class="panel-body">
 			<p><%= @p.content %></p>
 		</div>
-		<%end%>
+		
 	</div>
+	<%end%>
 </div>
 <div class="col-xs-3">
 	<div class="panel panel-default">
