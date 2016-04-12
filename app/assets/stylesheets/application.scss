@@ -24,5 +24,37 @@ body {
 .navbar-brand {
 	position: absolute;
 	left: 50%;
+
+}
+#lander {
+	color: white;
+	font-size: 150%;
+	h1 {
+		font-weight: bold;
+
+	}
+}
+// .navbar-fixed-bottom {
+// 	background: transparent;
+// 	text-align: center;
+// 	border-color: transparent;
+// }
+#lander-footer {
+	text-align: center;
+	margin-top: 50%;
+	font-size: 75%;
+}
+#lander-forms {
+	margin-top: 3%;
+	color: black;
+}
+#post-panel {
+	margin-top: -21px;
+}
+#post-divide {
 	
+}
+.post-time {
+	font-size: 70%;
+	opacity: 0.7;
 }
