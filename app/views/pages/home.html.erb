@@ -2,8 +2,8 @@
 <div class="container">
 	<div class="col-xs-3">
 		<div class="panel panel-default">
-			<div class="panel-heading">
-				<p>status</p>
+			<div class="panel-heading" style=".panel-heading: padding: 0px;">
+				<img src="/bike.jpg" width="226px" height="160px" style="padding: 0px; overflow: hidden;">
 			</div>
 			<div class="panel-body">
 				<p>profile info goes here</p>
@@ -35,6 +35,13 @@
 								<h4><%= User.find(@p.user_id).username %> -<span class="post-time"> Created <%= time_ago_in_words(@p.created_at) %> ago</span> </h4>
 							</div>
 							<p><%= @p.content %></p>
+							<div class="col-xs-12" id="gicons">
+								<span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
+								<span class="glyphicon glyphicon-refresh" aria-hidden="true"></span>
+								<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+								<span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span>
+								<span id="convo"> <a href="#">View conversation</a> </span>
+							</div>
 						</div> 
 					</div> <hr>
 				<%end%>
@@ -45,11 +52,8 @@
 	</div>
 	<div class="col-xs-3">
 		<div class="panel panel-default">
-			<div class="panel-heading">
-				<p>links</p>
-			</div>
 			<div class="panel-body">
-				<p>other link info goes here</p>
+				<p>About Help Blog Jobs Terms Privacy Cookies Ads Info Brand Advertise</p>
 			</div>
 		</div>
 	</div>
