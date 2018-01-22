@@ -2,5 +2,5 @@
 
 Chitter is a twitter-like clone. This is an ongoing project with the purpose of diving deeper into ruby on rails.
 Im focusing more on the functionality than actual asthetics, so don't beat me up on that! lol.
-If you want to see design work, check out my website: kenijiwoye.com 
+If you want to see design work, check out my website: kwoye.me
 
